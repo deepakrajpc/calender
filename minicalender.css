@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+
+}
+
+body{
+    align-items: center ;
+    background-image: url(miniCalender.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.container{
+    background-color:white;
+    text-align: center;
+}
+
+#month{
+    background-color: red;
+    font-size: 4rem;
+    height: 2.5 rem;
+    display: flex;
+    justify-content: center;
+}
+
+#day{
+    height: 3rem ;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+#date{
+    font-size: 3rem;
+    font-weight: 200    ;
+}
+
+#year{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
